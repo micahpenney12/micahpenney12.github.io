@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header hr {
+    width: 85%;
+}
+
