@@ -1,30 +1,166 @@
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Micah Penney</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
-<body>
-    <header>
-        <h1>Micah Penney</h1>
-        <hr>
-    </header>
+        <main>
 
-    <main>
+            <!-- HEADER -->
+            <header>
+                <div class="header-name">
+                    <h1>Micah Penney</h1>
+                    <span class="title">Full-Stack Developer</span>
+                </div>
+                <div class="header-links">
+                    <a
+                        href="mailto:micah@example.com">micahpenney12@gmail.com</a>
+                    <a href="www.linkedin.com/in/micah-penney-6b0340155"
+                        target="_blank">LinkedIn</a>
+                    <a href="https://github.com/micahpenney12"
+                        target="_blank">GitHub</a>
+                    <a href="#">Resume PDF</a>
+                </div>
+            </header>
 
-        <h2>About Me</h2>
+            <hr>
 
-        <h2>Qualifications</h2>
+            <!-- ABOUT -->
+            <section>
+                <div class="section-label">About</div>
+                <div class="section-body">
+                    <p>I'm a developer focused on building clean, reliable
+                        software. I care about writing code that's easy to
+                        understand, maintain, and build on. Currently open to
+                        new opportunities.</p>
+                </div>
+            </section>
 
-        <h2>Projects</h2>
-    </main>
+            <hr>
 
-    <footer>
-        <h3>Micah Penney</h3>
+            <!-- EXPERIENCE -->
+            <section>
+                <div class="section-label">Experience</div>
+                <div class="section-body">
 
-        <span>Last Updated 2026/15/02</span>
-    </footer>
-</body>
+                    <div class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-org">Absolute Technology
+                                Solutions</span>
+                            <span class="entry-period">2021 — Present</span>
+                        </div>
+                        <div class="entry-role">Full-Stack Developer</div>
+                        <p class="entry-desc">What you did, what you built, and
+                            the impact it had. Use numbers when you can — they
+                            make a real difference on a resume.</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- EDUCATION -->
+            <section>
+                <div class="section-label">Education</div>
+                <div class="section-body">
+
+                    <div class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-org">LeTourneau University</span>
+                            <span class="entry-period">2017-2021</span>
+                        </div>
+                        <div class="entry-role">B.S. Computer Science</div>
+                        <p class="entry-desc">GPA: 3.69 &nbsp;·&nbsp; Relevant
+                            coursework, honors, or clubs worth mentioning.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- SKILLS -->
+            <section>
+                <div class="section-label">Skills</div>
+                <div class="section-body skills-body">
+                    <div class="skill-row">
+                        <span class="skill-key">Languages</span>
+                        <span class="skill-val">JavaScript, TypeScript, Python,
+                            SQL, HTML, CSS</span>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-key">Frameworks</span>
+                        <span class="skill-val">React, Node.js, Express,
+                            Next.js</span>
+                    </div>
+                    <div class="skill-row">
+                        <span class="skill-key">Tools</span>
+                        <span class="skill-val">Git, Docker, AWS, Figma, VS
+                            Code</span>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- PROJECTS -->
+            <section>
+                <div class="section-label">Projects</div>
+                <div class="section-body">
+
+                    <div class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-org"><a href="#"
+                                    class="entry-link">Project One ↗</a></span>
+                            <span class="entry-period">React · Node.js</span>
+                        </div>
+                        <p class="entry-desc">What it does and why you built it.
+                            One or two sentences is plenty.</p>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-org"><a href="#"
+                                    class="entry-link">Project Two ↗</a></span>
+                            <span class="entry-period">Python ·
+                                PostgreSQL</span>
+                        </div>
+                        <p class="entry-desc">What it does and why you built it.
+                            One or two sentences is plenty.</p>
+                    </div>
+
+                    <div class="entry">
+                        <div class="entry-meta">
+                            <span class="entry-org"><a href="#"
+                                    class="entry-link">Project Three
+                                    ↗</a></span>
+                            <span class="entry-period">TypeScript · AWS</span>
+                        </div>
+                        <p class="entry-desc">What it does and why you built it.
+                            One or two sentences is plenty.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr>
+
+            <footer>
+                <span>Micah Penney</span>
+                <span>Updated February 2026</span>
+            </footer>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
